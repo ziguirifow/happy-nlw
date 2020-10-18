@@ -20,7 +20,7 @@ export default function CreateOrphanage() {
                 url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
               />
 
-              <Marker interactive={false} icon={mapIcon} position={[-23.5505, -46.6333]} />
+              {/* <Marker interactive={false} icon={mapIcon} position={[-23.5505, -46.6333]} /> */}
             </Map>
 
             <div className="input-block">
