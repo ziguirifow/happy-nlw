@@ -60,8 +60,8 @@ const styles = StyleSheet.create({
   },
 
   map: {
-    width: Dimensions.get('window').width,
-    height: Dimensions.get('window').height,
+    width: Dimensions.get('screen').width,
+    height: Dimensions.get('screen').height,
   },
 
   calloutContainer: {
