@@ -37,7 +37,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔨 Back-end
 
-Clicando no link abaixo você será redirecionado pra a página do Insomnia, se você já tiver ele instalado você vai poder importar um JSON pra dentro do Insomnia com todas os métodos usados no back-end do projeto.
+Clicando no link abaixo você será redirecionado pra a página do Insomnia, se você já tiver ele instalado você vai poder importar um JSON pra dentro do Insomnia com todos os métodos usados no back-end do projeto.
 
 <h1 align="center">
 <a href="https://insomnia.rest/run/?label=Happy-API&uri=https://github.com/ziguirifow/happy-nlw/blob/main/backend/Happy-Insomnia.json" target="_blank" rel="noopener noreferrer"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
