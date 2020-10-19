@@ -16,6 +16,7 @@
 ---
 
 ## 💻 Projeto
+
 Projeto desenvolvido durante a <strong>Next Level Week</strong> que tem como objetivo fins sociais.
 O <strong>Happy</strong> serve como uma plaforma de conexão com instituições de orfanatos.
 
@@ -35,29 +36,30 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ---
 
 ## 🔨 Back-end
+
+Clicando no link abaixo você será redirecionado pra a página do Insomnia, se você já tiver ele instalado você vai poder importar um JSON pra dentro do Insomnia com todas os métodos usados no back-end do projeto.
+
 <h1 align="center">
 <a href="https://insomnia.rest/run/?label=Happy-API&uri=https://github.com/ziguirifow/happy-nlw/blob/main/backend/Happy-Insomnia.json" target="_blank" rel="noopener noreferrer"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </h1>
 
-
 ## 🌐 Front-end
+
 <h1 align="center">
     <img alt="happy Front-end" title="#delicinha" src=".github/happy-front-end.gif" />
 </h1>
 
-
-
 ## 📱 Mobile
+
 <h3 align="center"> 🚧 Em construção!! 🚧 </h3>
 <h1 align="center">
    <!-- <img alt="happy Mobile" title="#delicinha" src="#" width="250px" /> -->
 </h1>
 
-
 ## 👨‍💻 Instalação
 
-
 ### 🔨 Back-end
+
 ```bash
 # Navegue até a pasta backend e instale as depedências:
 $ npm install ou yarn install
@@ -71,6 +73,7 @@ $ npm run dev ou yarn dev
 ---
 
 ### 🌐 Front-end
+
 ```bash
 # Navegue até a pasta raiz e instale as depedências:
 $ npm install ou yarn install
@@ -85,7 +88,8 @@ $ acesse a url -> http://localhost:3000
 
 ---
 
-### 📱 Mobile
+<!-- ### 📱 Mobile
+
 ```bash
 # Navegue até a pasta mobile e instale as depedências:
 $ npm install ou yarn install
@@ -95,4 +99,4 @@ $ expo start
 
 # Observações:
 - Não esqueça de mudar a baseURL no arquivo api.ts das pastas web e mobile para o ip da sua máquina caso queira testar o aplicativo mobile no seu dispositivo físico.
-```
+``` -->
