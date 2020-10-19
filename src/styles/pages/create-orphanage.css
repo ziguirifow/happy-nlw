@@ -80,7 +80,7 @@ form.create-orphanage-form .input-block input {
 }
 
 form.create-orphanage-form .input-block textarea {
-  min-height: 120px;
+  min-height: 175px;
   max-height: 240px;
   resize: vertical;
   padding: 16px;
