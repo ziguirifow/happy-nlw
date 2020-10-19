@@ -54,7 +54,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 </h1>
 
 
-## 🔥 Instalação
+## 👨‍💻 Instalação
+
 
 ### 🔨 Back-end
 ```bash
