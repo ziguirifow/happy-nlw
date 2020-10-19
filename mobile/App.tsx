@@ -39,7 +39,7 @@ export default function App() {
       <View style={styles.footer}>
         <Text style={styles.footerText}>2 orfanatos encontrados</Text>
 
-        <TouchableOpacity style={styles.createOrphanageButton}>
+        <TouchableOpacity style={styles.createOrphanageButton} onPress={() => {}}>
           <Feather name="plus" size={20} color="#FFF" />
         </TouchableOpacity>
       </View>
