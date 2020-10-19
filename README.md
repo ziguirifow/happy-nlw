@@ -36,7 +36,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔨 Back-end
 <h1 align="center">
-<a href="https://insomnia.rest/run/?label=Happy-API&uri=https://github.com/ziguirifow/happy-nlw/blob/main/backend/Happy-Insomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+<a href="https://insomnia.rest/run/?label=Happy-API&uri=https://github.com/ziguirifow/happy-nlw/blob/main/backend/Happy-Insomnia.json" target="_blank" rel="noopener noreferrer"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </h1>
 
 
