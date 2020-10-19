@@ -61,7 +61,7 @@ Clicando no link abaixo você será redirecionado pra a página do Insomnia, se 
 ### 🔨 Back-end
 
 ```bash
-# Navegue até a pasta backend e instale as depedências:
+# Navegue até a pasta backend e instale as dependências:
 $ npm install ou yarn install
 
 # Depois disso, continuando na pasta raiz e execute os seguintes comandos:
@@ -75,7 +75,7 @@ $ npm run dev ou yarn dev
 ### 🌐 Front-end
 
 ```bash
-# Navegue até a pasta raiz e instale as depedências:
+# Navegue até a pasta raiz e instale as dependências:
 $ npm install ou yarn install
 
 # Depois disso, continuando na pasta raiz e execute os seguintes comandos:
@@ -91,7 +91,7 @@ $ acesse a url -> http://localhost:3000
 <!-- ### 📱 Mobile
 
 ```bash
-# Navegue até a pasta mobile e instale as depedências:
+# Navegue até a pasta mobile e instale as dependências:
 $ npm install ou yarn install
 
 # Execute o seguinte comando - somente para Android:
