@@ -18,7 +18,7 @@
 ## 💻 Projeto
 
 Projeto desenvolvido durante a <strong>Next Level Week</strong> que tem como objetivo fins sociais.
-O <strong>Happy</strong> serve como uma plaforma de conexão com instituições de orfanatos.
+O <strong>Happy</strong> serve como uma plataforma de conexão com instituições de orfanatos.
 
 ---
 
