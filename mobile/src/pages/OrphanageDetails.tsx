@@ -4,8 +4,13 @@ import { Dimensions, Image, ScrollView, StyleSheet, Text, View } from 'react-nat
 import { RectButton } from 'react-native-gesture-handler';
 import MapView, { Marker } from 'react-native-maps';
 import mapMarkerImg from '../images/map-marker.png';
+import { useRoute } from '@react-navigation/native';
 
 export default function OrphanageDetails() {
+  const route = useRoute();
+
+  console.log(route.params);
+
   return (
     <ScrollView style={styles.container}>
       <View style={styles.imagesContainer}>
