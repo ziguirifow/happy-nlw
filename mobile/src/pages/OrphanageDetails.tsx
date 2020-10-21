@@ -55,7 +55,7 @@ export default function OrphanageDetails() {
     );
   }
 
-  function handleOpenGoogleMapRoutes() {
+  function handleOpenGoogleMapsRoutes() {
     Linking.openURL(
       `https://www.google.com/maps/dir/?api=1&destination=${orphanage?.latitude},${orphanage?.longitude}`
     );
@@ -66,16 +66,16 @@ export default function OrphanageDetails() {
       <View style={styles.imagesContainer}>
         <ScrollView horizontal pagingEnabled>
           {orphanage.images.map((image) => {
-            return <Image key={image.id} style={styles.image} source={{ uri: image.url }} />;
+            return (
+              <Image
+                key={image.id}
+                style={styles.image}
+                source={{
+                  uri: image.url,
+                }}
+              />
+            );
           })}
-          <Image
-            style={styles.image}
-            source={{ uri: 'https://fmnova.com.br/images/noticias/safe_image.jpg' }}
-          />
-          <Image
-            style={styles.image}
-            source={{ uri: 'https://fmnova.com.br/images/noticias/safe_image.jpg' }}
-          />
         </ScrollView>
       </View>
 
@@ -106,7 +106,7 @@ export default function OrphanageDetails() {
             />
           </MapView>
 
-          <TouchableOpacity onPress={handleOpenGoogleMapRoutes} style={styles.routesContainer}>
+          <TouchableOpacity style={styles.routesContainer} onPress={handleOpenGoogleMapsRoutes}>
             <Text style={styles.routesText}>Ver rotas no Google Maps</Text>
           </TouchableOpacity>
         </View>
@@ -135,14 +135,13 @@ export default function OrphanageDetails() {
             <View style={[styles.scheduleItem, styles.scheduleItemRed]}>
               <Feather name="info" size={40} color="#FF669D" />
               <Text style={[styles.scheduleText, styles.scheduleTextRed]}>
-                {' '}
-                Não Atendemos fim de semana
+                Não atendemos fim de semana
               </Text>
             </View>
           )}
         </View>
-
-        {/* <RectButton style={styles.contactButton} onPress={() => {}}>
+        {/*
+        <RectButton style={styles.contactButton} onPress={() => {}}>
           <FontAwesome name="whatsapp" size={24} color="#FFF" />
           <Text style={styles.contactButtonText}>Entrar em contato</Text>
         </RectButton> */}

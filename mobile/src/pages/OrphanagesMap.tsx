@@ -1,6 +1,6 @@
 import { Feather } from '@expo/vector-icons';
-import { useNavigation } from '@react-navigation/native';
-import React, { useEffect, useState } from 'react';
+import { useFocusEffect, useNavigation } from '@react-navigation/native';
+import React, { useCallback, useEffect, useState } from 'react';
 import { Dimensions, StyleSheet, Text, View } from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
 import MapView, { Callout, Marker, PROVIDER_GOOGLE } from 'react-native-maps';
@@ -16,21 +16,27 @@ interface Orphanage {
 
 export default function OrphanagesMap() {
   const [orphanages, setOrphanages] = useState<Orphanage[]>([]);
+
   const navigation = useNavigation();
 
-  useEffect(() => {
-    api.get('orphanages').then((response) => {
-      setOrphanages(response.data);
-    });
-  }, []);
+  useFocusEffect(
+    useCallback(() => {
+      api.get('orphanages').then((response) => {
+        setOrphanages(response.data);
+      });
+    }, [])
+  );
 
-  function handleNavigateToOrphanageDetails(id: number) {
-    navigation.navigate('OrphanageDetails', { id });
-  }
+  const handleNavigateToOrphanageDetails = useCallback(
+    (id: number) => {
+      navigation.navigate('OrphanageDetails', { id });
+    },
+    [navigation]
+  );
 
-  function handleNavigateToCreateOrphanage() {
+  const handleNavigatoOrphanage = useCallback(() => {
     navigation.navigate('SelectMapPosition');
-  }
+  }, [navigation]);
 
   return (
     <View style={styles.container}>
@@ -50,7 +56,7 @@ export default function OrphanagesMap() {
               key={orphanage.id}
               icon={mapMarker}
               calloutAnchor={{
-                x: 2.7,
+                x: 2.6,
                 y: 0.8,
               }}
               coordinate={{
@@ -69,9 +75,8 @@ export default function OrphanagesMap() {
       </MapView>
 
       <View style={styles.footer}>
-        <Text style={styles.footerText}>{orphanages.length} orfanatos encontrados</Text>
-
-        <RectButton style={styles.createOrphanageButton} onPress={handleNavigateToCreateOrphanage}>
+        <Text style={styles.footerText}>{orphanages.length} encontrados</Text>
+        <RectButton style={styles.createOrphanageButton} onPress={handleNavigatoOrphanage}>
           <Feather name="plus" size={20} color="#FFF" />
         </RectButton>
       </View>
