@@ -23,8 +23,8 @@ export default function SelectMapPosition() {
     <View style={styles.container}>
       <MapView
         initialRegion={{
-          latitude: -23.4979328,
-          longitude: -46.6681856,
+          latitude: -23.5505,
+          longitude: -46.6333,
           latitudeDelta: 0.008,
           longitudeDelta: 0.008,
         }}
