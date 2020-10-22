@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Happy" title="#delicinha" src=".github/Happy.png" width="700px" />
+    <img alt="Happy" title="Happy" src=".github/logo.svg" />
 </h1>
 
 <p align="center">
@@ -9,6 +9,10 @@
   <a href="#-front-end">Front-end</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-mobile">Mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-instalação">Instalação</a>
+</p>
+
+<p align="center">
+  <img alt="Happy" src=".github/happy.png" width="100%">
 </p>
 
 <br>
