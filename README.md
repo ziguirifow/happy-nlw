@@ -51,9 +51,8 @@ Clicando no link abaixo você será redirecionado pra a página do Insomnia, se 
 
 ## 📱 Mobile
 
-<h3 align="center"> 🚧 Em construção!! 🚧 </h3>
 <h1 align="center">
-   <!-- <img alt="happy Mobile" title="#delicinha" src="#" width="250px" /> -->
+   <img alt="happy Mobile" title="#delicinha" src=".github/happy-mobile.gif" />
 </h1>
 
 ## 👨‍💻 Instalação
@@ -88,7 +87,7 @@ $ acesse a url -> http://localhost:3000
 
 ---
 
-<!-- ### 📱 Mobile
+### 📱 Mobile
 
 ```bash
 # Navegue até a pasta mobile e instale as dependências:
@@ -99,4 +98,4 @@ $ expo start
 
 # Observações:
 - Não esqueça de mudar a baseURL no arquivo api.ts das pastas web e mobile para o ip da sua máquina caso queira testar o aplicativo mobile no seu dispositivo físico.
-``` -->
+```
